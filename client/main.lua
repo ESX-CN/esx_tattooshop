@@ -50,7 +50,7 @@ function OpenShopMenu()
 	end
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'tattoo_shop', {
-		css 	 = 'tattoo_shop',
+		css 	 = 'tatoo',
 		title    = _U('tattoos'),
 		align    = 'bottom-right',
 		elements = elements
@@ -69,7 +69,7 @@ function OpenShopMenu()
 			end
 
 			ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'tattoo_shop_categories', {
-				css 	 = 'tattoo_shop',
+				css 	 = 'tatoo',
 				title    = _U('tattoos') .. ' | '..currentLabel,
 				align    = 'bottom-right',
 				elements = elements
