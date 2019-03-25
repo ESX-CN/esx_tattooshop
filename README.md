@@ -1,32 +1,30 @@
 # esx_tattooshop
 This is a resource that adds shops around the island, where you can get various tattoos (there's a lot of available tattoos!).
 
+简单的进行了魔改版简繁英自适应，需要使用魔改版[es_extended](https://github.com/ESX-CN/es_extended)，具体使用方法自己琢磨
+
 - [FiveM forum thread](https://forum.fivem.net/t/release-esx-tattoos-shops/51496) (original script!)
 
-### Requirements
-- [skinchanger](https://github.com/ESX-Org/skinchanger)
-- [esx_skin](https://github.com/ESX-Org/esx_skin)
+### 安装要求
+- [es_extended](https://github.com/ESX-CN/es_extended)
+- [skinchanger](https://github.com/ESX-CN/skinchanger)
+- [esx_skin](https://github.com/ESX-CN/esx_skin)
 
-## Download & Installation
+## 下载 & 安装
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-public/esx_tattooshop
-```
-
-### Using Git
+### 使用Git
 ```
 cd resources
-git clone https://github.com/ESX-PUBLIC/esx_tattooshop [esx]/esx_tattooshop
+git clone https://github.com/ESX-CN/esx_tattooshop [esx]/esx_tattooshop
 ```
 
-### Manually
-- Download https://github.com/ESX-PUBLIC/esx_tattooshop/archive/master.zip
-- Put it in the `[esx]` directory
+### 手动
+- 下载 https://github.com/ESX-CN/esx_tattooshop/archive/master.zip
+- 解压至 `[esx]` 文件夹
 
-## Installation
-- Import `esx_tattooshop.sql` in your database
-- Add this in your server.cfg :
+## 安装
+- 导入 `esx_tattooshop.sql` 至你的数据库
+- 添加如下至你的 `server.cfg` 文件:
 
 ```
 start esx_tattooshop

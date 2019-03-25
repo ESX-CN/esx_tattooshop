@@ -50,6 +50,7 @@ function OpenShopMenu()
 	end
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'tattoo_shop', {
+		css 	 = 'tattoo_shop',
 		title    = _U('tattoos'),
 		align    = 'bottom-right',
 		elements = elements
@@ -68,6 +69,7 @@ function OpenShopMenu()
 			end
 
 			ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'tattoo_shop_categories', {
+				css 	 = 'tattoo_shop',
 				title    = _U('tattoos') .. ' | '..currentLabel,
 				align    = 'bottom-right',
 				elements = elements
@@ -272,3 +274,8 @@ function cleanPlayer()
 		ApplyPedOverlay(PlayerPedId(), GetHashKey(k.collection), GetHashKey(Config.TattooList[k.collection][k.texture].nameHash))
 	end
 end
+
+RegisterNetEvent('esx:showTattooNotification')
+AddEventHandler('esx:showTattooNotification', function(msg,...)
+	ESX.ShowNotification(_U(msg,...))
+end)
