@@ -11,9 +11,9 @@ server_scripts {
 
 client_scripts {
 	'@es_extended/locale.lua',
-	'locales/cn.lua',
+	'locales/sc.lua',
 	'locales/en.lua',
-	'locales/zh.lua',
+	'locales/tc.lua',
 	'config.lua',
 	'@es_extended/i18n.lua',
 	'client/tattooList.lua',

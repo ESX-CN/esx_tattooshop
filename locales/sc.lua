@@ -1,4 +1,4 @@
-Locales['cn'] = {
+Locales['sc'] = {
     ['tattoo_shop_prompt'] = '按 ~INPUT_PICKUP~ 访问~y~纹身店~s~.',
     ['money_amount'] = '<span style="color:green;">$%s</span>',
     ['part'] = '部分 %s',
